@@ -24,6 +24,7 @@ def now_serving(katz_deli)
     katz_deli.each do |name|
       puts "Currently serving #{katz_deli[0]}."
       katz_deli.shift
+      return katz_deli
     end
   end
 end
